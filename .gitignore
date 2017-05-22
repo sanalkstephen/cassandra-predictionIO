@@ -1,0 +1,30 @@
+.DS_Store
+.pio_store
+*.swp
+*.swo
+conf/pio-env.sh
+target/
+sbt/sbt-launch-*.jar
+..sxr/
+*.class
+core/data
+*.orig
+examples/data/ml-*
+fs/
+supervisord.conf
+assembly/
+/dist
+pio.log
+*.tgz
+*.tar.gz
+*.pyc
+# Ignore source files whose name prefixed with "Private"
+Private*.scala
+quickstartapp/
+# IntelliJ
+*.iml
+.idea/
+.templates-cache
+/apache-predictionio-0.10.0-incubating/PredictionIO-0.10.0-incubating/lib
+/apache-predictionio-0.10.0-incubating/PredictionIO-0.10.0-incubating/vendors
+/docs/manual/source/gallery/template-gallery.html.md
